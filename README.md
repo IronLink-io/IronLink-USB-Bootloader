@@ -42,4 +42,4 @@ Your application must be in DFU format in order to upload it to the IronLink. In
 
 Files | Description
 ------------ | -------------
-usb serial systick.dfu | Prints the current value of the systick over the USB serial.
+[usb serial systick.dfu](examples/usb%20serial%20systick.dfu) | Prints the current value of the systick over the USB serial.
