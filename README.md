@@ -22,6 +22,13 @@ Your application must be in DFU format in order to upload it to the IronLink. In
 1. Download and install the ST DfuSe software which will be used to flash programs onto the IronLink. https://www.st.com/en/development-tools/stsw-stm32080.html
 
 2. Open the application **DfuSeDemo**. If the IronLink is connected correctly you will see a device called "STM Device in DFU Mode" with 64 sectors of memory.
+
 ![DfuSe Flashing Software](/images/DfuSe_Application.png)
 
-3.
+3. Next click "Choose..." and select the DFU files that you wish to upload onto the IronLink
+
+![DfuSe Flashing Software](/images/DfuSe_Choose.png)
+
+4. Finally click on upgrade and the DFU firmware file should be uploaded to the board. Reboot the board and the new firmware should now execute on the board.
+
+![DfuSe Flashing Software](/images/DfuSe_Upgrade.png)
