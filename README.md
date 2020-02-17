@@ -9,7 +9,7 @@ The default bootloader that is provided with the IronLink boards to allow upload
 ## Entering Bootloader Mode
 The IronLink bootloader can be entered through a jump in software or by connecting **GPIO1** to **GND**. If GPIO1 is connected to GND while the device is powering on it will enter bootloader mode and a DFU device will become available via USB.
 
-![DfuSe Flashing Software](/images/IronLink_Boot.png)
+![DfuSe Flashing Software](/images/IronLink_Boot.jpg)
 
 ## Bootloader Details
 The IronLink default bootloader will flash and run applications from the address 0x08008000 which gives the developer 96Kb of application flash for their projects. When the application jumps to the users application in flash all 16Kb of system RAM is available.
