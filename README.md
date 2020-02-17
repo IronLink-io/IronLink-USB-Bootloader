@@ -14,7 +14,7 @@ The IronLink bootloader can be entered through a jump in software or by connecti
 ## Bootloader Details
 The IronLink default bootloader will flash and run applications from the address 0x08008000 which gives the developer 96Kb of application flash for their projects. When the application jumps to the users application in flash all 16Kb of system RAM is available.
 
-Application | Value
+Parameter | Value
 ------------ | -------------
 **User App Flash Address** | 0x08008000
 **Total Available Flash** | 128Kb
