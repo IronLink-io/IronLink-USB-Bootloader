@@ -15,3 +15,6 @@ Application | Value
 **Total Available Flash** | 128Kb
 **Bootloader Flash Size** | 32Kb
 **Application Flash Size** | 96Kb
+
+## Uploading Firmware using the Bootloader
+Your application must be in DFU format in order to upload it to the IronLink. In the [examples](/examples) directory of this repository you will find a number of example programs in the DFU format that can be used to test the IronLink.
