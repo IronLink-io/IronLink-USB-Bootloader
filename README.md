@@ -18,3 +18,10 @@ Application | Value
 
 ## Uploading Firmware using the Bootloader
 Your application must be in DFU format in order to upload it to the IronLink. In the [examples](/examples) directory of this repository you will find a number of example programs in the DFU format that can be used to test the IronLink.
+
+1. Download and install the ST DfuSe software which will be used to flash programs onto the IronLink. https://www.st.com/en/development-tools/stsw-stm32080.html
+
+2. Open the application **DfuSeDemo**. If the IronLink is connected correctly you will see a device called "STM Device in DFU Mode" with 64 sectors of memory.
+![DfuSe Flashing Software](/images/DfuSe_Application.png)
+
+3.
