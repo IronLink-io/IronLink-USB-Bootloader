@@ -37,3 +37,9 @@ Your application must be in DFU format in order to upload it to the IronLink. In
 4. Finally click on upgrade and the DFU firmware file should be uploaded to the board. Reboot the board and the new firmware should now execute on the board.
 
 ![DfuSe Flashing Software](/images/DfuSe_Upgrade.png)
+
+## DFU Example Programs
+
+Files | Description
+------------ | -------------
+usb serial systick.dfu | Prints the current value of the systick over the USB serial.
