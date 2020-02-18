@@ -9,7 +9,7 @@ The default bootloader that is provided with the IronLink boards to allow upload
 ## Entering Bootloader Mode
 The IronLink bootloader can be entered through a jump in software or by connecting **GPIO1** to **GND**. If GPIO1 is connected to GND while the device is powering on it will enter bootloader mode and a DFU device will become available via USB.
 
-![DfuSe Flashing Software](images/IronLink_Boot.jpg)
+![DfuSe Flashing Software](https://github.com/IronLink-io/ironlink-usb-bootloader-setup/blob/master/images/IronLink_Boot.jpg)
 
 ## Bootloader Details
 The IronLink default bootloader will flash and run applications from the address 0x08008000 which gives the developer 96Kb of application flash for their projects. When the application jumps to the users application in flash all 16Kb of system RAM is available.
@@ -28,15 +28,15 @@ Your application must be in DFU format in order to upload it to the IronLink. In
 
 2. Open the application **DfuSeDemo**. If the IronLink is connected correctly you will see a device called "STM Device in DFU Mode" with 64 sectors of memory.
 
-![DfuSe Flashing Software](images/DfuSe_Application.png)
+![DfuSe Flashing Software](https://github.com/IronLink-io/ironlink-usb-bootloader-setup/blob/master/images/DfuSe_Application.png)
 
 3. Next click "Choose..." and select the DFU files that you wish to upload onto the IronLink
 
-![DfuSe Flashing Software](images/DfuSe_Choose.png)
+![DfuSe Flashing Software](https://github.com/IronLink-io/ironlink-usb-bootloader-setup/blob/master/images/DfuSe_Choose.png)
 
 4. Finally click on upgrade and the DFU firmware file should be uploaded to the board. Reboot the board and the new firmware should now execute on the board.
 
-![DfuSe Flashing Software](images/DfuSe_Upgrade.png)
+![DfuSe Flashing Software](https://github.com/IronLink-io/ironlink-usb-bootloader-setup/blob/master/images/DfuSe_Upgrade.png)
 
 ## DFU Example Programs
 
